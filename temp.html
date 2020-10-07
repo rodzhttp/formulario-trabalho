@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de candidatura de emprego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cab">
+
+      <h1>Formulário de candidatura de emprego</h1>
+
+      <p>
+        Agradecemos o interesse. Procuramos pessoas criativas, com interesse em
+        desenvolvimento e programação.<br />
+        Preencha os campos abaixo e boa sorte :)
+      </p>
+
+      <hr />
+      <br />
+    </div>
+
+    <div id="fm">
+      <form>
+        <h2>Identificação</h2>
+
+        <p>
+          <label for="cnome"> Nome: <span id="ast"> * </span> </label>
+          <input
+            type="text"
+            name="tnome"
+            id="cnome"
+            size="30"
+            maxlength="30"
+            placeholder="Nome completo"
+          />
+        </p>
+        <p>
+          <label for="cemail"> Email: <span id="ast"> * </span> </label>
+          <input
+            type="email"
+            name="temail"
+            id="cemail"
+            size="30"
+            placeholder="Email"
+          />
+        </p>
+        <p>
+          Data de nacimento: <span id="ast"> * </span>
+          <input type="date" name="tdata" id="cdata" />
+        </p>
+
+        <legend>Sexo:</legend>
+
+        <input type="radio" name="tsexo" id="cmasc" />
+        <label for="cmasc"> Masculino </label> <br />
+        <input type="radio" name="tsexo" id="cfem" />
+        <label for="cfem"> Feminino </label> <br /><br /></br >
+
+        <h2>Situação de emprego</h2>
+
+        <p>
+          Data de inicio disponível:
+          <input type="date" name="tdata" id="cdata" />
+        </p>
+
+        <legend>
+          Qual sua situação atual de emprego? <span id="ast"> * </span>
+        </legend>
+
+        <input type="radio" name="tempregado" id="cempregado" /> Empregado
+        <br />
+        <input type="radio" name="tdesempregado" id="cdesempregado" />
+        Desempregado <br />
+        <input type="radio" name="testudante" id="cestudante" /> Estuante
+        <br />
+        <input type="radio" name="tautonomo" id="cautonomo" /> Autônomo
+
+        <h2>Personalidade</h2>
+      </form>
+
+    </div>
+  </body>
+</html>

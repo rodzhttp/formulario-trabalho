@@ -1,0 +1,56 @@
+body {
+  font-family: arial;
+  margin: 0 auto; /* centralizando as paginas */
+  width: 980px;
+  box-sizing: border-box;
+}
+
+#form {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 50px 30px;
+  margin: 50px 0;
+}
+
+.form-desc h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+.form-desc p {
+  word-spacing: 4px;
+  line-height: 40px;
+}
+
+.job-form {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.ast {
+  color: red;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+.fullname-field {
+  padding-right: 50px;
+}
+
+.email-field {
+}
+
+button {
+  background: grey;
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin: 0 auto;
+}

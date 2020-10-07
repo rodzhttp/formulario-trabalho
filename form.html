@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de candidatura de emprego</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="form">
+      <div class="form-desc">
+        <h1>Formulário de candidatura de emprego</h1>
+
+        <p>
+          Obrigado pelo seu interesse em trabalhar conosco. Por favor, confira
+          abaixo as oportunidades de <br />
+          trabalho disponiveis, que atendam aos seus critérios e envie sua
+          candidatura preenchendo o Formulario <br />
+          de Candidatura de Emprego.
+        </p>
+
+        <hr />
+        <br />
+      </div>
+
+      <form class="job-form">
+        <label class="fullname-field" for="name">
+          Nome<span class="ast">*</span>:
+          <input
+            type="name"
+            required="true"
+            name="name"
+            id="name"
+            placeholder="Nome"
+          />
+          <input
+            type="text"
+            required="true"
+            name="surname"
+            id="surname"
+            placeholder="Sobrenome"
+          />
+        </label>
+
+        <label class="email-field" for="email"
+          >E-mail<span class="ast">*</span>:<input
+            type="email"
+            required="true"
+            name="email"
+            id="email"
+          />
+        </label>
+
+        <label class="position" for="position">
+          Para qual posição está se candidatando?<span class="ast">*</span>
+          <input type="text" required="true" name="position" id="position" />
+        </label>
+
+        <label class="date" for="date">
+          Data de início disponível<span class="ast">*</span>
+          <input type="date" required="true" name="date" id="date" />
+        </label>
+
+        <div class="form-group col col-lg-6">
+          <label for="situation-job" class="situation-job"
+            >Qual sua situação atual de emprego?<span class="ast"
+              >*</span
+            ></label
+          >
+
+          <label class="form-check-label" for="radiobutton1">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="radiobutton"
+              id=""
+              value="option1"
+              checked
+            />
+            Empregado
+          </label>
+
+          <label class="form-check-label" for="exampleRadios2">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="radiobutton"
+              id="radiobutton2"
+              value="option2"
+            />
+            Desempregado
+          </label>
+          <label class="form-check-label" for="exampleRadios2">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="radiobutton"
+              id="radiobutton2"
+              value="option2"
+            />
+            Estuante
+          </label>
+          <label class="form-check-label" for="exampleRadios2">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="radiobutton"
+              id="radiobutton2"
+              value="option2"
+            />
+            Autônomo
+          </label>
+        </div>
+
+        <label class="fullname-field" for="other-name">
+          Nome:
+          <input
+            type="name"
+            required="true"
+            name="other-name"
+            id="other-name"
+            placeholder="Nome"
+          />
+          <input type="text" placeholder="Sobrenome" />
+        </label>
+        <label class="email-field" for="other-email"
+          >E-mail:<input type="email" name="other-email" id="other-email" />
+        </label>
+
+        <button type="submit">Enviar Formulario</button>
+      </form>
+    </div>
+  </body>
+</html>
